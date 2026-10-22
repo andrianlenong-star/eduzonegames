@@ -103,7 +103,7 @@ export const WaygroundLobby: React.FC<Props> = ({
       <div className="flex items-center justify-between p-3.5 px-5 rounded-2xl bg-indigo-950/40 border border-indigo-500/30 text-xs mb-6 shadow-lg">
         <div className="flex items-center gap-2 text-indigo-300 font-extrabold">
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
-          <span>WAYGROUND LIVE ARENA</span>
+          <span>EDUZONE LIVE ARENA</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-slate-400">PIN GAME:</span>
@@ -123,7 +123,7 @@ export const WaygroundLobby: React.FC<Props> = ({
         <div className="text-center space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-gradient-to-r from-amber-500/20 via-pink-500/20 to-indigo-500/20 text-amber-300 border border-amber-500/30">
             <Flame className="w-3.5 h-3.5 text-amber-400 fill-current" />
-            <span>Kuis Interaktif Wayground</span>
+            <span>Kuis Interaktif EduZone Gamification Mode</span>
           </div>
 
           <h1 className="text-2xl sm:text-4xl font-black text-white leading-tight">
@@ -283,7 +283,7 @@ export const WaygroundLobby: React.FC<Props> = ({
             <div className="flex items-center gap-2.5">
               <Sparkles className="w-5 h-5 text-pink-400" />
               <div>
-                <div className="font-extrabold text-white">Meme & Reaksi Wayground</div>
+                <div className="font-extrabold text-white">Meme & Reaksi EduZone Gamification</div>
                 <div className="text-[11px] text-slate-400">
                   {showMemes ? 'Tampilkan Reaksi Seru Tiap Jawaban' : 'Langsung Soal Berikutnya'}
                 </div>

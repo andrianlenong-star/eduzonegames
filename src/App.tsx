@@ -36,6 +36,8 @@ import {
   saveQuizToFirestore,
   deleteQuizFromFirestore,
 } from './firebase';
+import { Language, getLanguage, toggleLanguage, subscribeLanguage } from './utils/i18n';
+import { Theme, getTheme, toggleTheme, subscribeTheme } from './utils/theme';
 
 const OBSOLETE_DUMMY_IDS = new Set([
   'sains-tata-surya',
@@ -176,6 +178,28 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('wayground_timer_enabled', String(timerEnabled));
   }, [timerEnabled]);
+
+  const [language, setLanguageState] = useState<Language>(() => getLanguage());
+  const [theme, setThemeState] = useState<Theme>(() => getTheme());
+
+  useEffect(() => {
+    const unsubLang = subscribeLanguage(setLanguageState);
+    const unsubTheme = subscribeTheme(setThemeState);
+    return () => {
+      unsubLang();
+      unsubTheme();
+    };
+  }, []);
+
+  const handleToggleLanguage = () => {
+    const next = toggleLanguage();
+    setLanguageState(next);
+  };
+
+  const handleToggleTheme = () => {
+    const next = toggleTheme();
+    setThemeState(next);
+  };
 
   const handleToggleTimer = () => {
     setTimerEnabled((prev) => !prev);
@@ -512,7 +536,13 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500 selection:text-white">
+    <div
+      className={`min-h-screen flex flex-col font-sans transition-colors duration-200 selection:bg-indigo-500 selection:text-white ${
+        theme === 'light'
+          ? 'bg-slate-100 text-slate-800 light'
+          : 'bg-slate-950 text-slate-100 dark'
+      }`}
+    >
       {/* Top Navigation */}
       <Navbar
         activeTab={activeTab}
@@ -531,6 +561,10 @@ export default function App() {
           setActiveGame(null);
           setActiveTab('bank-soal');
         }}
+        language={language}
+        onToggleLanguage={handleToggleLanguage}
+        theme={theme}
+        onToggleTheme={handleToggleTheme}
       />
 
       {/* Cloud Sync Toast Notification */}

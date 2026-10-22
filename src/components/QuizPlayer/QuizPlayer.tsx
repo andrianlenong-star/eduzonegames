@@ -744,12 +744,12 @@ export const QuizPlayer: React.FC<Props> = ({
             <span>Perisai</span>
           </button>
 
-          {/* Tombol Buka Jawaban ala Wayground */}
+          {/* Tombol Buka Jawaban ala EduZone Gamification Mode */}
           <button
             type="button"
             onClick={handleRevealAnswer}
             className="px-2.5 sm:px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500/20 via-emerald-500/20 to-amber-500/20 hover:from-amber-500/30 hover:via-emerald-500/30 hover:to-amber-500/30 text-amber-300 hover:text-white border border-amber-500/40 hover:border-emerald-400 text-xs font-black flex items-center gap-1 transition-all cursor-pointer shadow-md active:scale-95"
-            title="Buka Kunci Jawaban & Pembahasan Lengkap (Wayground Mode)"
+            title="Buka Kunci Jawaban & Pembahasan Lengkap (EduZone Gamification Mode)"
           >
             <KeyRound className="w-3.5 h-3.5 text-amber-400" />
             <span>Buka Kunci</span>
@@ -860,7 +860,7 @@ export const QuizPlayer: React.FC<Props> = ({
             type="button"
             onClick={handleRevealAnswer}
             className="px-4 sm:px-5 py-2.5 md:py-3.5 rounded-2xl font-black text-xs md:text-sm flex items-center gap-2 transition-all cursor-pointer bg-gradient-to-r from-amber-500/20 via-emerald-500/20 to-amber-500/20 hover:from-amber-500/30 hover:via-emerald-500/30 hover:to-amber-500/30 text-amber-300 hover:text-white border border-amber-500/40 hover:border-emerald-400 shadow-lg shadow-amber-950/30 active:scale-95"
-            title="Buka Kunci Jawaban & Pembahasan Lengkap (Wayground Mode)"
+            title="Buka Kunci Jawaban & Pembahasan Lengkap (EduZone Gamification Mode)"
           >
             <Eye className="w-4 h-4 md:w-5 md:h-5 text-amber-400" />
             <span>Buka Jawaban</span>
@@ -971,7 +971,7 @@ export const QuizPlayer: React.FC<Props> = ({
                     Kunci Jawaban Resmi
                   </h3>
                   <span className="text-xs text-slate-400">
-                    Soal {currentIndex + 1} dari {quizSet.questions.length} • Wayground Mode
+                    Soal {currentIndex + 1} dari {quizSet.questions.length} • EduZone Gamification Mode
                   </span>
                 </div>
               </div>

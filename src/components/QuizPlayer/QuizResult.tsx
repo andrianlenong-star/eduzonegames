@@ -81,9 +81,9 @@ export const QuizResult: React.FC<Props> = ({
   }, [accuracy]);
 
   const handleShare = () => {
-    const text = `Saya berhasil meraih Peringkat #${rank} dengan skor ${totalScore.toLocaleString('id-ID')} (Akurasi ${accuracy}%) pada kuis "${quizSet.title}" di Wayground EduZone! Ayo coba uji kemampuanmu!`;
+    const text = `Saya berhasil meraih Peringkat #${rank} dengan skor ${totalScore.toLocaleString('id-ID')} (Akurasi ${accuracy}%) pada kuis "${quizSet.title}" di EduZone Gamification Mode! Ayo coba uji kemampuanmu!`;
     if (navigator.share) {
-      navigator.share({ title: 'Skor Wayground', text }).catch(() => {});
+      navigator.share({ title: 'Skor EduZone Gamification Mode', text }).catch(() => {});
     } else {
       navigator.clipboard.writeText(text);
       alert('Teks hasil kuis berhasil disalin!');

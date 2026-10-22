@@ -9221,4 +9221,191 @@ export const USER_CREATED_QUIZZES: QuizSet[] = [
     "createdAt": "18/10/2026",
     "updatedAt": "2026-10-18T22:11:31.238Z"
   }
+,
+{
+  "id": "quiz-idiom-ungkapan-populer",
+  "title": "Makna Idiom & Ungkapan Populer Bahasa Indonesia",
+  "description": "Paket latihan mengasah pemahaman makna idiom, kiasan, dan ungkapan populer dalam bahasa Indonesia sehari-hari dan sastra • Sumber: EduZone Gamification Mode",
+  "category": "Bahasa Indonesia",
+  "grade": "SMP",
+  "targetClass": "Kelas 8 SMP",
+  "difficulty": "Sedang",
+  "icon": "Languages",
+  "color": "from-amber-600 to-rose-700",
+  "source": "EduZone Gamification Mode",
+  "questions": [
+    {
+      "id": "idiom-q-1",
+      "type": "multiple_choice",
+      "question": "Apa makna dari idiom \"kambing hitam\" dalam kalimat \"Ia merasa dijadikan kambing hitam dalam kegagalan proyek tersebut\"?",
+      "options": [
+        "Orang yang berjasa besar dalam kelompok",
+        "Orang yang selalu dipersalahkan padahal tidak bersalah",
+        "Orang yang memiliki ternak kambing",
+        "Orang yang paling berani menanggung risiko"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "Orang yang selalu dipersalahkan padahal tidak bersalah",
+      "explanation": "Idiom \"kambing hitam\" bermakna orang atau pihak yang dipersalahkan atas suatu kesalahan atau kemalangan yang sebenarnya bukan tanggung jawabnya.",
+      "hint": "Berasal dari konsep pihak yang disalahkan secara tidak adil.",
+      "anagramWord": "SALAH",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Mudah"
+    },
+    {
+      "id": "idiom-q-2",
+      "type": "multiple_choice",
+      "question": "Pak Joko harus \"banting tulang\" dari pagi hingga malam demi membiayai kuliah anak-anaknya. Arti ungkapan \"banting tulang\" adalah...",
+      "options": [
+        "Bekerja sangat keras",
+        "Mengalami cedera fisik",
+        "Beristirahat seharian penuh",
+        "Mencari pinjaman uang"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "Bekerja sangat keras",
+      "explanation": "\"Banting tulang\" adalah kiasan/idiom yang berarti bekerja keras membanting tenaga tanpa kenal lelah demi mencapai tujuan nafkah.",
+      "hint": "Menguras seluruh keringat dan tenaga demi nafkah.",
+      "anagramWord": "KERJA",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Mudah"
+    },
+    {
+      "id": "idiom-q-3",
+      "type": "true_false",
+      "question": "Ungkapan \"besar kepala\" memiliki arti yang sama persis dengan ungkapan \"rendah hati\".",
+      "isTrue": false,
+      "correctAnswer": "Salah",
+      "explanation": "\"Besar kepala\" berarti sombong atau angkuh, sedangkan \"rendah hati\" bermakna tidak sombong (tawaduk). Keduanya adalah antonim.",
+      "hint": "Salah satu berarti sombong, yang satu lagi berarti tidak sombong.",
+      "anagramWord": "ANTONIM",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Mudah"
+    },
+    {
+      "id": "idiom-q-4",
+      "type": "complex_multiple_choice",
+      "question": "Manakah di antara pasangan idiom dan makna berikut yang BENAR? (Pilih semua yang tepat)",
+      "options": [
+        "Kutu buku = Orang yang gemar dan rajin membaca buku",
+        "Meja hijau = Pengadilan hukum",
+        "Panjang tangan = Suka menolong sesama",
+        "Gulung tikar = Mengalami kebangkrutan usaha"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        3
+      ],
+      "correctAnswer": "Kutu buku = Orang yang gemar dan rajin membaca buku, Meja hijau = Pengadilan hukum, Gulung tikar = Mengalami kebangkrutan usaha",
+      "explanation": "\"Panjang tangan\" bermakna suka mencuri (bukan suka menolong). Kutu buku (rajin baca), meja hijau (pengadilan), dan gulung tikar (bangkrut) semuanya adalah idiom yang benar.",
+      "hint": "Perhatikan idiom panjang tangan yang berkonotasi negatif.",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Sedang"
+    },
+    {
+      "id": "idiom-q-5",
+      "type": "fill_blank",
+      "question": "Kasus sengketa tanah antarwarga tersebut akhirnya diselesaikan di meja . . . . (sebutan kiasan untuk lembaga peradilan)",
+      "acceptableAnswers": [
+        "hijau",
+        "Hijau",
+        "HIJAU"
+      ],
+      "correctAnswer": "hijau",
+      "explanation": "Idiom \"meja hijau\" merupakan sebutan kiasan populer untuk pengadilan hukum.",
+      "hint": "Warna khas alas meja di ruang sidang zaman dulu.",
+      "anagramWord": "HIJAU",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Mudah"
+    },
+    {
+      "id": "idiom-q-6",
+      "type": "matching",
+      "question": "Cocokkan idiom di sebelah kiri dengan makna kiasannya di sebelah kanan!",
+      "matchingPairs": [
+        {
+          "id": "m1",
+          "left": "Buah bibir",
+          "right": "Bahan pembicaraan orang"
+        },
+        {
+          "id": "m2",
+          "left": "Lapang dada",
+          "right": "Sabar dan ikhlas menerima"
+        },
+        {
+          "id": "m3",
+          "left": "Bintang kelas",
+          "right": "Siswa terpandai di kelas"
+        },
+        {
+          "id": "m4",
+          "left": "Cuci tangan",
+          "right": "Tidak mau bertanggung jawab"
+        }
+      ],
+      "correctAnswer": "Buah bibir: Bahan pembicaraan orang, Lapang dada: Sabar dan ikhlas menerima, Bintang kelas: Siswa terpandai di kelas, Cuci tangan: Tidak mau bertanggung jawab",
+      "explanation": "Masing-masing idiom mewakili kiasan perilaku atau posisi seseorang dalam kelompok sosial.",
+      "hint": "Pikirkan konteks percakapan saat orang berkata dia cuci tangan.",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Sedang"
+    },
+    {
+      "id": "idiom-q-7",
+      "type": "multiple_choice",
+      "question": "Peribahasa atau idiom \"Air beriak tanda tak dalam\" memiliki makna kiasan yaitu...",
+      "options": [
+        "Sungai yang deras sangat berbahaya untuk direnangi",
+        "Orang yang banyak bicara dan sombong biasanya ilmunya sedikit",
+        "Orang yang tenang dan bijaksana",
+        "Air yang bersih selalu mengalir deras"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "Orang yang banyak bicara dan sombong biasanya ilmunya sedikit",
+      "explanation": "Kiasan \"air beriak tanda tak dalam\" mengibaratkan orang yang suka menyombongkan diri dan banyak bicara padahal ilmunya dangkal.",
+      "hint": "Kiasan mengenai kedalaman air vs kebisingan percikan.",
+      "anagramWord": "DANGKAL",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Sedang"
+    },
+    {
+      "id": "idiom-q-8",
+      "type": "multiple_choice",
+      "question": "Ketika menerima kabar kekalahan dalam pemilihan ketua OSIS, Danu tetap \"berlapang dada\". Sikap Danu menunjukkan bahwa ia...",
+      "options": [
+        "Merasa sangat kecewa dan marah kepada panitia",
+        "Sabar, ikhlas, dan menerima kenyataan dengan lapang hati",
+        "Menolak hasil rekapitulasi suara",
+        "Menuntut diadakannya pemilihan ulang"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "Sabar, ikhlas, dan menerima kenyataan dengan lapang hati",
+      "explanation": "\"Lapang dada\" adalah ungkapan yang bermakna sikap sabar, berjiwa besar, dan ikhlas menerima keadaan apa pun.",
+      "hint": "Keluasan hati dalam menerima hasil.",
+      "anagramWord": "IKHLAS",
+      "subject": "Bahasa Indonesia",
+      "grade": "SMP",
+      "targetClass": "Kelas 8 SMP",
+      "difficulty": "Mudah"
+    }
+  ],
+  "playCount": 1,
+  "isCustom": true,
+  "createdAt": "22/10/2026"
+}
 ];

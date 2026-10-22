@@ -37,6 +37,22 @@
   background: rgba(99, 102, 241, 0.7);
 }
 
+html.light {
+  color-scheme: light;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: rgba(226, 232, 240, 0.8);
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.5);
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
 /* Print Media Styles for High-Quality Sheet Output */
 @media print {
   @page {

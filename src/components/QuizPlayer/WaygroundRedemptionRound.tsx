@@ -117,7 +117,7 @@ export const WaygroundRedemptionRound: React.FC<Props> = ({
           </h2>
 
           <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto">
-            Wayground memberimu kesempatan untuk memperbaiki 1 pertanyaan yang sempat keliru dan
+            EduZone memberimu kesempatan untuk memperbaiki 1 pertanyaan yang sempat keliru dan
             meraih bonus poin penebusan!
           </p>
         </div>

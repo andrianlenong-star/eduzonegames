@@ -655,7 +655,7 @@ export async function parseExcelOrCsvFile(file: File): Promise<ParsedFileResult>
 
   return {
     title: `Paket Soal: ${baseTitle}`,
-    description: `Paket ${questions.length} butir soal diimpor dari spreadsheet (${file.name})`,
+    description: `Paket ${questions.length} butir soal • Sumber: EduZone Gamification Mode`,
     category: 'Pengetahuan Umum',
     grade: 'SMP',
     targetClass: 'Kelas 7 SMP',
@@ -1230,7 +1230,7 @@ export function parseQuestionsFromRawText(
 
   return {
     title: `Paket Soal: ${baseTitle}`,
-    description: `Paket ${questions.length} butir soal diimpor dari dokumen (${fileName})`,
+    description: `Paket ${questions.length} butir soal • Sumber: EduZone Gamification Mode`,
     category: 'Pengetahuan Umum',
     grade: 'SMP',
     targetClass: 'Kelas 7 SMP',

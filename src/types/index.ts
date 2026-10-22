@@ -64,6 +64,7 @@ export interface QuizSet {
   questions: Question[];
   playCount?: number;
   isCustom?: boolean;
+  source?: string;
   createdAt?: string;
   updatedAt?: string;
 }

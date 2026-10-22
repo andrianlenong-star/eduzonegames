@@ -158,7 +158,8 @@ export const FileUploadModal: React.FC<FileUploadModalProps> = ({
       title: finalTitle,
       description:
         customDesc.trim() ||
-        `Paket ${previewQuestions.length} butir soal diimpor dari file dokumen`,
+        `Paket ${previewQuestions.length} butir soal • Sumber: EduZone Gamification Mode`,
+      source: 'EduZone Gamification Mode',
       category: customCategory,
       grade: customGrade,
       targetClass: customTargetClass,
